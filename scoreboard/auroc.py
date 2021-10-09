@@ -1,3 +1,7 @@
+from sklearn.metrics import classification_report, accuracy_score
+import matplotlib.pyplot as plt
+from sklearn.metrics import roc_curve, plot_roc_curve, roc_auc_score
+
 ax = plt.gca()
 for i in classifiers:
     i.fit(X_balanced, y_balanced)
