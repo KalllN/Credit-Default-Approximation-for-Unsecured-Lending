@@ -1,13 +1,4 @@
-from sklearn.linear_model import LogisticRegression
-from sklearn.neighbors import KNeighborsClassifier as knn
-from sklearn.svm import SVC
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.ensemble import RandomForestClassifier
-from lightgbm import LGBMClassifier
-from xgboost import XGBClassifier
-from sklearn.metrics import classification_report, accuracy_score
 import matplotlib.pyplot as plt
-from sklearn.metrics import roc_curve, plot_roc_curve, roc_auc_score
 import seaborn as sns
 
 # Income Distribution on the basis of age
